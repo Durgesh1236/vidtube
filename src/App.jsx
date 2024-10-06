@@ -10,6 +10,13 @@ const App = () => {
   const [sidebar, setsidebar] = useState(true)
   const [searchQuery, setSearchQuery] = useState("");
   
+  App.use(function (req, res, next) {
+    if (req.url.endsWith(".js")) {
+      res.setHeader("Content-Type", "application/javascript");
+    }
+    next();
+  });
+
   const handleSearch = (query) => {
     setSearchQuery(query); 
   };
