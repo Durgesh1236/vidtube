@@ -1,4 +1,4 @@
-import "./Video.css"
+import "./video.css"
 import React from "react"
 import PlayVideo from '../../Components/PlayVideo/PlayVideo'
 import Recomended from "../../Components/Recommended/Recomended"
