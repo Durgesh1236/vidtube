@@ -8,7 +8,7 @@
 
 @media(max-width:900px){
     .play-container{
-        padding-left: 8%;
-        padding-right: 8%;
+    padding-left: 8%; 
+    padding-right: 8%;
     }
 }
