@@ -1,8 +1,8 @@
+import "./Home.css"
 import { useState } from "react"
 import React from "react"
 import Feed from "../../Components/Feed/Feed"
 import Sidebar from "../../Components/Sidebar/Sidebar"
-import "./Home.css"
  const Home = (({sidebar, searchQuery}) =>{
   const [category, setCategory] = useState(0);
   

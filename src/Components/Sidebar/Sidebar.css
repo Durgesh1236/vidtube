@@ -64,7 +64,7 @@ display: none;
     border-bottom: 3px solid red;
 }
 
-@media (max-width:900px){
+@media (max-width:1000px){
     .sidebar{
         display: none;
     }
