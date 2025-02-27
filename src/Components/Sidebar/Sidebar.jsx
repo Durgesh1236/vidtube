@@ -9,10 +9,10 @@ import music from "../../assets//music.png"
 import blogs from "../../assets//blogs.png"
 import news from "../../assets//news.png"
 import jack from "../../assets//jack.jpg"
-import simon from "../../assets//simon.png"
-import tog from "../../assets//tom.png"
-import megan from "../../assets//megan.png"
-import cameron from "../../assets//cameron.png"
+// import simon from "../../assets//simon.png"
+// import tog from "../../assets//tom.png"
+// import megan from "../../assets//megan.png"
+// import cameron from "../../assets//cameron.png"
 import React from "react"
 
  const Sidebar = (({sidebar, category , setCategory}) => {
@@ -70,10 +70,10 @@ import React from "react"
                 <h3>Subscribed</h3>
                 <div className="side-link" onClick={()=>setCategory(0)}>
                     <img src={jack} alt="" />
-                    <p>PewDiePie</p>
+                    <p>Durgesh Kumar</p>
                 </div>
 
-                <div className="side-link" onClick={()=>setCategory(0)}>
+                {/* <div className="side-link" onClick={()=>setCategory(0)}>
                     <img src={simon} alt="" />
                     <p>MrBeast</p>
                 </div>
@@ -91,7 +91,7 @@ import React from "react"
                 <div className="side-link" onClick={()=>setCategory(0)}>
                     <img src={megan} alt="" />
                     <p>5-Minute Crafts</p>
-                </div>
+                </div> */}
             </div>
         </div>
     )
